@@ -24,9 +24,11 @@ const generarHamburguesas = () => {
                   '<p class="card-text">' + tiposHamburguesa.ingredients + '</p>' + 
                   '<p class="card-precio">$' + tiposHamburguesa.price + '</p>' + 
                   '<img src="./assets/' + tiposHamburguesa.photo + '" class="fotosHamburguesas" alt="">' +
-                  '<a onClick="agregarHamburguesa(\'' + tiposHamburguesa.name + '\')" class="btn btn-primary">+</a>' + 
-                  '<p id="cantidad' + tiposHamburguesa.name + '">' + cantidad + '</p>' +
-                  '<a onClick="sacarHamburguesa(\'' + tiposHamburguesa.name + '\')" class="btn btn-primary">-</a>' +  
+                  '<div style="display: inline-flex">' + 
+                    '<a onClick="agregarHamburguesa(\'' + tiposHamburguesa.name + '\')" class="btn btn-primary">+</a>' + 
+                    '<p id="cantidad' + tiposHamburguesa.name + '">' + cantidad + '</p>' +
+                    '<a onClick="sacarHamburguesa(\'' + tiposHamburguesa.name + '\')" class="btn btn-primary">-</a>' +  
+                  '</div>' + 
                 '</div>' + 
               '</div>' + 
             '</div>';
