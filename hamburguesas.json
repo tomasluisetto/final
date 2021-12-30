@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ROYALE",
+        "price": 500,
+        "ingredients": "Doble medallon de carne, doble cheddar y salsa Detroit",
+        "photo": "royale.jpg"
+    },
+    {
+        "name": "PETIT",
+        "price": 600,
+        "ingredients": "Doble medallon de carne, doble cheddar, panceta y huevo frito",
+        "photo": "petit.jpg"
+    },
+    {
+        "name": "NOSTRA",
+        "price": 650,
+        "ingredients": "Doble carne, panceta, roquefort y cebolla caramelizada",
+        "photo": "nostra.jpg"
+    }
+]
