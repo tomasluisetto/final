@@ -78,7 +78,7 @@ const calcularPrecioPedido = () => {
         if (cantidad == undefined) {
             cantidad = 0;
         } else {
-            let rowCarrito = "<div class='rowCarrito"  + hamburguesa.name + "'>" + hamburguesa.name + " x" + cantidad + "   ----------------   $" + (hamburguesa.price * cantidad) + '<br>';
+            let rowCarrito = "<div class='rowCarrito rowCarrito"  + hamburguesa.name + "'>" + hamburguesa.name + " x" + cantidad + "   ----------------   $" + (hamburguesa.price * cantidad) + '<br>';
             divCarrito.innerHTML += rowCarrito;        
         }
         precioFinal += hamburguesa.price * cantidad;
