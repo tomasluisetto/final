@@ -17,7 +17,7 @@ const generarHamburguesas = () => {
         }
 
         divHamburguesas.innerHTML += 
-            '<div class="col-sm-4">' + 
+            '<div class="contenedor col-sm-4">' + 
               '<div class="card">' + 
                 '<div class="card-body">' + 
                   '<h5 class="card-title">' + tiposHamburguesa.name + '</h5>' + 
@@ -80,7 +80,7 @@ const calcularPrecioPedido = () => {
         if (cantidad == undefined) {
             cantidad = 0;
         } else {
-            let rowCarrito = "<div class='rowCarrito rowCarrito"  + hamburguesa.name + "'>" + hamburguesa.name + " x" + cantidad + "   ----------------   $" + (hamburguesa.price * cantidad) + '<br>';
+            let rowCarrito = "<div class='rowCarrito rowCarrito"  + hamburguesa.name + "'>" + hamburguesa.name + " x" + cantidad + "   -----   $" + (hamburguesa.price * cantidad) + '<br>';
             divCarrito.innerHTML += rowCarrito;        
         }
         precioFinal += hamburguesa.price * cantidad;
