@@ -24,7 +24,7 @@ padding-bottom: 25px;
 
 .nav-link {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-shadow: 0px 1px 2px white;
     font-weight: bold;
 }
@@ -119,7 +119,7 @@ footer {
 
 .card-precio {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-shadow: 2px 1px 2px black;
     text-align: center;
     font-weight: bold;
@@ -243,6 +243,17 @@ footer {
     padding: 10px;
 }
 
+.rowCarritoNOSTRA {
+    margin: 5px;
+}
+
+.rowCarritoPETIT {
+    margin: 5px;
+}
+
+.rowCarritoROYALE {
+    margin: 5px;
+}
 
 /* ------------------------MEDIAQUERIES------------------------ */
 
@@ -266,7 +277,7 @@ footer {
 }
 
 .hamburguesaPrincipal {
-    height: 200px;
+    height: 250px;
 }
 
 .card-title {
@@ -285,21 +296,17 @@ footer {
 
 @media (min-width: 576px) and (max-width: 900px) {
 
-.contenedor {
-    
-}
-
 .tituloApp {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding-top: 10px;
 }
 
 .subtituloApp {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 
 .nav-link {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .card {
@@ -311,11 +318,11 @@ footer {
 }
 
 .card-title {
-    font-size: 2rem;
+    font-size: 2.6rem;
 }
 
 .card-precio {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .fotosHamburguesas {

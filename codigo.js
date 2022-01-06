@@ -17,7 +17,7 @@ const generarHamburguesas = () => {
         }
 
         divHamburguesas.innerHTML += 
-            '<div class="contenedor col-sm-4">' + 
+            '<div class="contenedor col-sm-4 col-sm-12 col-md4 col-lg-4 col-xs-12">' + 
               '<div class="card">' + 
                 '<div class="card-body">' + 
                   '<h5 class="card-title">' + tiposHamburguesa.name + '</h5>' + 
